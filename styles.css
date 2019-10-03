@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css?family=Belleza|El+Messiri|Tiempos|Lexend+Deca|Philosopher|Tenor+Sans|Barlow|Be+Vietnam|Noto+Sans+KR|Palanquin|Palanquin+Dark&display=swap');
+@import url("https://use.typekit.net/oak7fdn.css");
+
+body {
+ color: #555;
+ margin: 0;
+ font-family: 'Palanquin', sans-serif;
+ font-size: 19px;
+ line-height: 32px;
+}
+
+#header {
+  font-family: 'Palanquin', sans-serif;
+  background-color: #fff;
+  height: 60px;
+  position: fixed;
+  display: block;
+  top: 0;
+  width: 100%;
+  line-height: 60px;
+  border-bottom: solid 0.5px #ddd;
+  letter-spacing: 0.04em;
+}
+
+#header a {
+ color: #333;
+ text-decoration: none;
+}
+
+#header a:hover {
+ color: #aaa;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#header-title {
+ display: block;
+ float: left;
+ font-size: 14px;
+ font-weight: 600;
+ font-family: 'Palanquin', sans-serif;
+}
+
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Palanquin', sans-serif;
+}
+
+#header-nav li {
+  display: inline;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.post-author img {
+  filter: brightness(94%);
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+  padding: 2px;
+  border-radius: 100%;
+  border: solid 0.5px #dbdbdb;
+}
+
+.post-author img:hover {
+  filter: brightness(94%);
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+  padding: 2px;
+  border-radius: 100%;
+  border: solid 0.5px #0000ff;
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+
+.post-date {
+ color: #aaa;
+ font-size: 12px;
+ font-weight: 200;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+}
+
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about img {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+ color: #000;
+}
+
+h1 {
+  width: 80%;
+  font-family: freight-text-pro, serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+h3 {
+max-width: 600px;
+}
+
+p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.quote {
+  display: block;
+  text-align: left;
+  line-height: normal;
+  width: 450px;
+  font-family: freight-text-pro, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 36px;
+  margin: 0 auto;
+  color: #0000ff;
+}
+
+.quote:hover {
+  display: block;
+  text-align: left;
+  line-height: normal;
+  width: 450px;
+  font-family: freight-text-pro, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 36px;
+  text-decoration: underline;
+  margin: 0 auto;
+  color: #0000ff;
+}
+
+.credit {
+  display: block;
+  text-align: left;
+  line-height: normal;
+  width: 450px;
+  font-family: 'Palanquin', sans-serif;
+  font-size: 13px;
+  margin: 0 auto;
+  color: #0000ff;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 50px 0px 80px 0px;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer h4 {
+ color: #000;
+ letter-spacing: 0.04em;
+ font-family: "Montserrat"
+}
+
+#footer p {
+  font-family: "Montserrat"
+  color: #333;
+}
+
+a {
+ color: #aaa;
+ text-decoration: none;
+}
+a:hover {
+ color: #0000ff;
+}
